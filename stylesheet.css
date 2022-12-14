@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: "Candara";
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    padding-bottom: 50px;
+    /* padding-left: 250px; */
+    margin:0 auto;
+}
+/* .topNav{
+    display: flex;
+    position: absolute;
+    left: 0px;
+} */
+header{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    top: 0;
+    z-index: 10;
+}
+.header-left h1{
+    width: 125px;
+    margin-top: 10px;
+    color: aliceblue;
+    letter-spacing: 10px;
+    font-family: "Copperplate";
+}
+.header-left{
+    float: left;
+    /* padding-left: 150px; */
+}
+.header-nav{
+    float: left;
+    margin-left: 100px;
+    margin: 0 auto;
+}
+.header-nav a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: aliceblue;
+    display: block;  
+    float: left;
+    transition: 0.5s;
+}
+.header-nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.title{
+    padding: 180px 0 100px 0;
+    color: black;
+    text-align: center;
+}
+.heading span{
+    
+    color: rgb(255, 183, 0);
+}
+.heading h1{
+    font-size: 65px;
+}
+.mid-logo{
+    margin-top: 25px;
+}
+.mid-logo img{
+    height: 25%;
+    width: 25%;
+}
+.about{
+    /* height: 325px; */
+    background-color: rgb(205, 202, 202);
+    text-align: center;
+    /* border-bottom: 50px; */
+}
+.content h1{
+    padding-top: 35px;
+}
+.content p{
+    font-family:"Candara"
+}
+.judul-top{
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+.project{
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.image img{
+    height: 50%;
+    width: 100%;
+    /* padding-left: 50px; */
+    opacity: 0.8s;
+    flex: auto;
+}
+.image img:hover{
+    opacity: 1;
+}
+image{
+    display: flex;
+}
+.contoh-project{
+    position: relative;
+}
+.contoh-project p{
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-left: 35px; */
+} 
+.contact{
+    margin-top: 300px;
+    background-color: rgb(205, 202, 202);
+    font-family: "Candara";
+    /* padding-top: 35px; */
+    padding-bottom: 75px;
+    height: 300x;
+    width: 100%;
+}
+.isi-contact{
+    padding-top: 35px;
+    margin: 0 auto;
+    /* height: 35px;
+    width: 50px;  */
+}
+.isi-contact input{
+    /* text-align: center; */
+    border-radius: 5px;
+    /* padding-right: 100px; */
+    /* padding: 5px 55px; */
+}
+.isi-contact textarea{
+    border-radius: 10px;
+    /* text-align: center; */
+}
+.isi-contact .contact-submit{
+    /* height: 5px;
+    width: 20px; */
+    padding: 0 20px;
+}
+.contact-submit{
+    background-color:rgba(255, 255, 0, 0.91);
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* .btn{
+    opacity: 0.7;
+}
+.btn:hover{
+    opacity: 1;
+} */
+footer{
+    background-color: rgb(46, 65, 69);
+    color: white;
+    height: 175px;
+    width: 100%;
+    padding: 20px;
+    font-family: "Candara";
+}
+.footer-logo{
+    float: left;
+    /* font-size: 32px; */
+    color: white;
+    letter-spacing: 20px;
+    font-family: "Copperplate";
+    /* padding-left: 100px; */
+}
+.footer-list{
+    margin: 0 auto;
+    padding-top: 50px;
+    list-style: none;
+}
+.footer-list li{
+    color: white;
+    float: right;
+    padding-right: 65px;
+}
+.menu-icon {
+    color: white;
+    /* float: right; */
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+    
+  }
+  .fa {
+    margin-right: 5px;
+  }
